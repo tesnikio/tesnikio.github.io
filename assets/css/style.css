@@ -1433,6 +1433,7 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box img {
     width: 120px;
+    border-radius: 20px;
   }
 
   .info-content .name {
