@@ -353,17 +353,17 @@ main {
   border-radius: 50%;
   width: 80px;
   height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
   padding: 0;
   margin: 0;
+  position: relative;
+  line-height: 0;
 }
 
 figure.avatar-box {
   margin: 0;
   padding: 0;
+  line-height: 0;
 }
 
 .avatar-box img {
@@ -371,7 +371,10 @@ figure.avatar-box {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center;
   display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .info-content .name {
@@ -2000,8 +2003,8 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     background: transparent;
   }
 
